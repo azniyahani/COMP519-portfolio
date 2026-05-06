@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Azniya Hani">
+    <meta name="description" content="Personal portfolio for COMP519 Web Programming Assignment">
+    <meta name="keywords" content="portfolio, web development, HTML, CSS, student">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Azniya Hani Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Azniya Hani</h1>
+
+    <!-- LOCAL IMAGE -->
+    <img src="image.png" alt="Profile Photo">
+
+    <nav>
+        <a href="#personal">Personal</a>
+        <a href="#career">Career</a>
+        <a href="#education">Education</a>
+        <a href="#work">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#links">Links</a>
+    </nav>
+</header>
+
+<main>
+
+<!-- 1 -->
+<section id="personal">
+    <h2>Personal Information</h2>
+    <p><strong>Name:</strong>Azniya Hani C S</p>
+    <P><strong>Location:</strong>Pernambut, TamilNadu.India</P>
+    <p>I am a student passionate about web development and building interactive websites.</p>
+</section>
+
+<!-- 2 -->
+<section id="career">
+    <h2>Career Goal</h2>
+    <p>
+        I aim to become a professional web developer by improving my skills in HTML, CSS and JavaScript.
+        I regularly learn from
+        <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>.
+    </p>
+</section>
+
+<!-- 3 -->
+<section id="education">
+    <h2>Education</h2>
+
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Institution</th>
+            <th>Score</th>
+        </tr>
+
+        <tr>
+            <td>2023 - 25</td>
+            <td>Nusrathul Islam Girls Higher Secondary School</td>
+            <td>97%</td>
+        </tr>
+
+        <tr>
+            <td>2025 - Present</td>
+            <td>Marudhar Kesari Jain College for women, Vaniyambadi</td>
+            <td>96%(current score)</td>
+        </tr>
+    </table>
+</section>
+
+<!-- 4 -->
+<section id="work">
+    <h2>Work Experience</h2>
+    <ul>
+        <li>Student Developer (Fresher)</li>
+        <li>Built portfolio website using HTML & CSS</li>
+        <li>Worked on learning projects like trading bot</li>
+    </ul>
+</section>
+
+<!-- 5 -->
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
+
+<!-- 6 -->
+<section id="hobbies">
+    <h2>Hobbies & Interests</h2>
+
+    <p>I enjoy coding, learning new technologies, and solving problems.</p>
+
+    <!-- EXTERNAL IMAGE -->
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Coding Image">
+    <p>Image source: Unsplash</p>
+</section>
+
+<!-- LINKS SECTION (IMPORTANT FOR MARKS) -->
+<section id="links">
+    <h2>Important Links</h2>
+
+    <ul>
+        <li><a href="https://github.com/" target="_blank">GitHub Profile</a></li>
+        <li><a href="https://linkedin.com/" target="_blank">LinkedIn Profile</a></li>
+        <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+        <li><a href="#personal">Go to Personal Section</a></li>
+        <li><a href="#education">Go to Education Section</a></li>
+    </ul>
+</section>
+
+</main>
+
+<footer>
+    <p>Last Modified: <span id="date"></span></p>
+</footer>
+
+<script>
+    document.getElementById("date").textContent = document.lastModified;
+</script>
+
+</body>
+</html>
